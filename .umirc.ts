@@ -15,4 +15,26 @@ export default defineConfig({
     routerBase: true,
     runtime: true,
   },
+  proxy: {
+    '/api': {
+      target: 'http://localhost:8888/',
+      changeOrigin: true,
+      secure: false,
+      pathRewrite: {},
+      ws: true,
+    },
+    '/files': {
+      target: 'http://localhost:8888/',
+      changeOrigin: true,
+      secure: false,
+      pathRewrite: {},
+      ws: true,
+    },
+    '/lsp': {
+      target: 'http://localhost:8888/',
+      changeOrigin: true,
+      secure: false,
+      ws: true,
+    },
+  },
 });
