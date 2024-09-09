@@ -9,9 +9,13 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "@difizen/libro-lab": "^0.2.28",
+    "@difizen/mana-app": "^0.1.25",
     "umi": "^4.3.14"
   },
   "devDependencies": {
+    "@difizen/umi-plugin-mana": "^0.1.25",
+    "tslib": "^2.7.0",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
     "typescript": "^5.0.3"
