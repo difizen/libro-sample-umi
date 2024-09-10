@@ -4,6 +4,7 @@ export default defineConfig({
   routes: [
     { path: "/", component: "libro-lab/index" },
     { path: "/editor", component: "libro-editor/index" },
+    { path: "/command", component: "libro-command/index" },
     { path: "/docs", component: "docs" },
   ],
   npmClient: 'pnpm',
