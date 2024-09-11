@@ -5,6 +5,7 @@ export default defineConfig({
     { path: "/", component: "libro-lab/index" },
     { path: "/editor", component: "libro-editor/index" },
     { path: "/command", component: "libro-command/index" },
+    { path: "/toolbar", component: "libro-toolbar/index" },
     { path: "/docs", component: "docs" },
   ],
   npmClient: 'pnpm',

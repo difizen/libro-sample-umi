@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@ant-design/icons':
+    specifier: ^5.4.0
+    version: 5.4.0(react-dom@18.3.1)(react@18.3.1)
   '@difizen/libro-jupyter':
     specifier: ^0.2.30
     version: 0.2.30(@types/react@18.3.3)(antd@5.20.5)(mapbox-gl@1.13.3)(react-dom@18.3.1)(react@18.3.1)
@@ -2368,7 +2371,7 @@ packages:
     peerDependencies:
       react: '>=16.3.0'
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.25.6
       hoist-non-react-statics: 3.3.2
       react: 18.3.1
       react-is: 16.13.1
@@ -6667,7 +6670,7 @@ packages:
   /history@5.3.0:
     resolution: {integrity: sha512-ZqaKwjjrAYUYfLG+htGaIIZ4nioX2L70ZUMIFysS3xvBsSG4x/n1V6TXV3N8ZYNuFGlDirFg32T7B6WOUPDYcQ==}
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.25.6
 
   /hmac-drbg@1.0.1:
     resolution: {integrity: sha512-Tti3gMqLdZfhOQY1Mzf/AanLiqh1WTiJgEj26ZuYQ9fbkLomzGchCws4FyrSd4VkpBfiNhaE1On+lOz894jvXg==}
@@ -9879,7 +9882,7 @@ packages:
       react: ^16.6.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.6.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.25.6
       invariant: 2.2.4
       prop-types: 15.8.1
       react: 18.3.1
