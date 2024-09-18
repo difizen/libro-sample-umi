@@ -2,7 +2,7 @@ import type { CellMeta, CellModel, CellOptions } from '@difizen/libro-jupyter';
 import { CellModelContribution, CellViewContribution } from '@difizen/libro-jupyter';
 import { inject } from '@difizen/mana-app';
 import { singleton } from '@difizen/mana-app';
-import { LibroGeneralDemoCellModelFactory } from './libro-general-demo-protocol.js'
+import { LibroGeneralDemoCellModelFactory } from './libro-general-demo-cell-protocol'
 import { LibroGeneralDemoCellView } from './libro-general-demo-cell-view.js';
 
 @singleton({

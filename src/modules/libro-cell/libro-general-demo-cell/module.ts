@@ -2,8 +2,8 @@ import { ManaModule } from "@difizen/mana-app";
 import { LibroGeneralDemoCellContribution } from './libro-general-demo-cell-contribution';
 import { LibroGeneralDemoCellView } from './libro-general-demo-cell-view';
 import { LibroGeneralDemoCellModel } from './libro-general-demo-cell-model';
-import { LibroGeneralDemoCellModelFactory } from './libro-general-demo-protocol'
 import { CellOptions } from "@difizen/libro-jupyter";
+import { LibroGeneralDemoCellModelFactory } from "./libro-general-demo-cell-protocol";
 
 export const LibroGeneralDemoCellModule = ManaModule.create()
 .register(

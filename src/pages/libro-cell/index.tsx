@@ -3,6 +3,7 @@ import { ManaAppPreset, ManaComponents } from '@difizen/mana-app';
 import { LabModule } from '@/modules/libro-lab/module';
 import './index.less'
 import { LibroGeneralDemoCellModule } from '@/modules/libro-cell/libro-general-demo-cell/module';
+import { LibroEditorDemoCellModule } from '@/modules/libro-cell/libro-editor-demo-cell/module';
 
 
 const App = (): JSX.Element => {
@@ -11,7 +12,7 @@ const App = (): JSX.Element => {
       <ManaComponents.Application
         key="libro-cell"
         asChild={true}
-        modules={[ManaAppPreset, LabModule,LibroGeneralDemoCellModule]}
+        modules={[ManaAppPreset, LabModule,LibroGeneralDemoCellModule,LibroEditorDemoCellModule]}
       />
     </div>
   );
