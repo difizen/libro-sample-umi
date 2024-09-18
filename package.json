@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.4.0",
-    "@difizen/libro-jupyter": "^0.2.30",
-    "@difizen/libro-lab": "^0.2.28",
+    "@difizen/libro-jupyter": "^0.2.35-next.0",
+    "@difizen/libro-lab": "^0.2.35-next.0",
     "@difizen/mana-app": "^0.1.25",
     "antd": "^5.20.5",
     "umi": "^4.3.14"

@@ -6,22 +6,22 @@ import { LibroGeneralDemoCellModelFactory } from './libro-general-demo-protocol'
 import { CellOptions } from "@difizen/libro-jupyter";
 
 export const LibroGeneralDemoCellModule = ManaModule.create()
-  .register(
-    LibroGeneralDemoCellContribution,
-    LibroGeneralDemoCellView,
-    LibroGeneralDemoCellModel,
-    {
-        token: LibroGeneralDemoCellModelFactory,
-        useFactory: ctx => {
-          return (options: CellOptions) => {
-            const child = ctx.container.createChild();
-            child.register({
-              token: CellOptions,
-              useValue: options,
-            });
-            const model = child.get(LibroGeneralDemoCellModel);
-            return model;
-          };
-        },
-      }
-  )
+.register(
+  LibroGeneralDemoCellContribution,
+  LibroGeneralDemoCellView,
+  LibroGeneralDemoCellModel,
+  {
+    token: LibroGeneralDemoCellModelFactory,
+    useFactory: ctx => {
+      return (options: CellOptions) => {
+        const child = ctx.container.createChild();
+        child.register({
+          token: CellOptions,
+          useValue: options,
+        });
+        const model = child.get(LibroGeneralDemoCellModel);
+        return model;
+      };
+    },
+  }
+)
